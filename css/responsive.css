@@ -1,0 +1,82 @@
+/*=================================================
+  Use a media query to add a breakpoint at 1024px:
+==================================================*/
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    .header-area .nav{
+        display: block;
+        text-align: center;
+    }
+    .header-area .nav li :hover{
+        background: #fff;
+        transition: .5s;
+    }
+    
+    
+    
+    .banner-item h5{
+        font-size: 16px;
+    }
+    .banner-item h2{
+        font-size: 20px;
+    }
+    .banner-item h2 span{
+        font-size: 26px;
+    }
+    .banner-item p{
+        display: none;
+    }
+    
+    
+    .our-btn{
+        font-size: 13px;
+    }
+    
+    
+    .submit-area{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 600px){
+    .section-headding{
+        width: 350px;
+    }
+    body{
+        width: 100%;
+    }
+    .top{
+    width: 0;
+    height: 0;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 50%;
+    bottom: 0;
+    display: none;
+}
+}
+@media screen and (max-width: 320px){
+     .section-headding{
+        width: 320px;
+    }
+     .submit-area{
+        width: 100%px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
